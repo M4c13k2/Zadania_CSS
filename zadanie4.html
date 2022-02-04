@@ -1,0 +1,46 @@
+<html>
+<head>
+ <meta charset="UTF-8"/>
+<META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=iso-8859-2">
+</head>
+<body>
+<h1>Sposoby podłączenia styli do strony.</h1>
+<table border="1">
+<tr>
+<td>Zewnętrzny arkusz stylów.</td>
+<td>< HEAD >< link rel="Stylesheet" type="text/css" href="style.css" />< / HEAD ></td>
+</tr>
+<tr>
+<td>Styl lokalny inaczej: (styl wpisany, liniowy, linijkowy, w linii) czyli
+dopisanie arkusza do wybranego bloku treści strony.</td>
+<td><selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor></td>
+</tr>
+<tr>
+<td>Wewnętrzny arkusz stylów.</td>
+<td>< head >
+ < style type="text/css">
+ selektor1 { cecha: wartościowść; cecha2: wartościowść2... }
+ selektor2 { cecha: wartościowość; cecha2: wartościowść2... } 
+ </ style> 
+ </ head >
+</td>
+</tr>
+<tr>
+<td>Alternatywny arkusz stylów.</td>
+<td>
+< head>
+< link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślnalna" />
+< link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" />
+< link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" />
+</ head>
+</td>
+</tr>
+<tr> 
+<td>Import arkusza stylów.</td>
+<td>< style type="text/css">
+ @import url(adres zewnętrznego arkusza stylów);
+</style></td>
+</tr>
+</table>
+</body>
+</html>

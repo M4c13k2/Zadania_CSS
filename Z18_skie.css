@@ -1,0 +1,29 @@
+.divl{
+   background-color :yellow;
+   max-width: 980;
+}
+   
+   p{
+    color:red;
+    font-size:1.8cm;
+   }
+   body{
+	   color:black;
+	   font-size:1cm;
+   }
+   .div2{
+	   background-color:pink;
+	   max-width:1198;
+   }
+   p.p2{
+	   color:green;
+	   font-size:1.7cm
+   }
+   .div3{
+	    background-color:white;
+	   font-size:0.9cm;
+   }
+   p.p3{
+	   color:black; 
+	   font-size:0.8cm; 
+   }
